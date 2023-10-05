@@ -1,27 +1,41 @@
 # AngularBlog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Esse projeto foi criado com [Angular CLI](https://github.com/angular/angular-cli) versão 14.1.2.
 
-## Development server
+## Funcionalidades
+Na tela é possível visualizar o modelo de um blog.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias
+- HTML 
+- CSS 
+- JavaScript 
+- TypeScript
+- Angular
 
-## Code scaffolding
+## Inicialização
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Faça um clone do repositório através do git. 
+
+2. Após realizar os procedimentos acima, você pode abrir o arquivo `index.html`
+   que está localizado na raiz do projeto (diretório principal) no navegador de sua preferência.
+
+3.  Se utilizar a extensão 'live server' do VSCode, ele vai abrir um servidor na porta 4200.
+
+## Servidor de desenvolvimento
+
+Execute `ng serve` para um servidor de desenvolvimento. Navegue até `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar algum dos arquivos de origem.
+
+## Código
+
+Execute `ng generate component nome-do-componente` para gerar um novo componente. Você também pode usar `ng generate directiva|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Execute `ng build` para construir o projeto. Os artefatos de construção serão armazenados no diretório `dist/`.
 
-## Running unit tests
+## Colaboradores
+Foi criado um fork do projeto original e feita algumas modificações de acordo com o commit.
+- Bruna Stefani Moreira Torres Francisco - <a href="https://www.linkedin.com/in/bruna-moreira-torres-francisco/" target="_blank">LinkedIn</a>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Status do Projeto
+Concluído.

@@ -18,7 +18,7 @@ export class ContentComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe( value =>
+    this.route.paramMap.subscribe( (value: { get: (arg0: string) => string | null; }) =>
      this.id = value.get("id")
     )
 
